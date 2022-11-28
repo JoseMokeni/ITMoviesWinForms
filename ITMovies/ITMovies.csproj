@@ -274,5 +274,23 @@
   <ItemGroup>
     <None Include="Resources\IT %283%29.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_535107114_TmT3OHe6q8VjAhAZbrs2iZcg05daMB9T.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1055119346-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview_the-5th-wave-film-2016.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_113108667_pariscinema_getty976.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-adam-2022-movies-pierce-brosnan-aldis-hodge-dwayne-2560x1440-8727.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\godzilla-theme-oe7.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

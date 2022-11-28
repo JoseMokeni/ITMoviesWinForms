@@ -73,9 +73,39 @@ namespace ITMovies.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _113108667_pariscinema_getty976 {
+            get {
+                object obj = ResourceManager.GetObject("_113108667_pariscinema_getty976", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _360_F_535107114_TmT3OHe6q8VjAhAZbrs2iZcg05daMB9T {
+            get {
+                object obj = ResourceManager.GetObject("360_F_535107114_TmT3OHe6q8VjAhAZbrs2iZcg05daMB9T", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap administrator {
             get {
                 object obj = ResourceManager.GetObject("administrator", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap black_adam_2022_movies_pierce_brosnan_aldis_hodge_dwayne_2560x1440_8727 {
+            get {
+                object obj = ResourceManager.GetObject("black-adam-2022-movies-pierce-brosnan-aldis-hodge-dwayne-2560x1440-8727", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,6 +153,16 @@ namespace ITMovies.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap godzilla_theme_oe7 {
+            get {
+                object obj = ResourceManager.GetObject("godzilla-theme-oe7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap history__1_ {
             get {
                 object obj = ResourceManager.GetObject("history (1)", resourceCulture);
@@ -156,6 +196,16 @@ namespace ITMovies.Properties {
         internal static System.Drawing.Bitmap images {
             get {
                 object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1055119346_612x612 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1055119346-612x612", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,6 +256,16 @@ namespace ITMovies.Properties {
         internal static System.Drawing.Bitmap MOVIES1 {
             get {
                 object obj = ResourceManager.GetObject("MOVIES1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap preview_the_5th_wave_film_2016 {
+            get {
+                object obj = ResourceManager.GetObject("preview_the-5th-wave-film-2016", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -118,50 +118,56 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="target" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\target.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\administrator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="profil-de-lutilisateur1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\profil-de-lutilisateur1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="history (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\history (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="it movies (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\it movies (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="i4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\i4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="video-camera1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\video-camera1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1000_F_298058704_ctiLR9jCoY08wpqknHqdKOYM5nVWIhOk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1000_F_298058704_ctiLR9jCoY08wpqknHqdKOYM5nVWIhOk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="black-adam-2022-movies-pierce-brosnan-aldis-hodge-dwayne-2560x1440-8727" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black-adam-2022-movies-pierce-brosnan-aldis-hodge-dwayne-2560x1440-8727.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MOVIES" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MOVIES.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="film-slate" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\film-slate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="it movies (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\it movies (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="client" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\client.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="watching-a-movie" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\watching-a-movie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="preview_the-5th-wave-film-2016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\preview_the-5th-wave-film-2016.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="connexion" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\connexion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IT (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IT (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="i41" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\i41.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1000_F_298058704_ctiLR9jCoY08wpqknHqdKOYM5nVWIhOk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1000_F_298058704_ctiLR9jCoY08wpqknHqdKOYM5nVWIhOk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="video-camera1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\video-camera1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1055119346-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1055119346-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="watching-a-movie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\watching-a-movie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profil-de-lutilisateur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profil-de-lutilisateur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MOVIES1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MOVIES1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,22 +175,34 @@
   <data name="video-camera" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\video-camera.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="target" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\target.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="profil-de-lutilisateur" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\profil-de-lutilisateur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="history (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\history (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cadenas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cadenas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="administrator" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\administrator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="IT (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IT (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_113108667_pariscinema_getty976" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_113108667_pariscinema_getty976.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="film-slate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\film-slate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="connexion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\connexion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="360_F_535107114_TmT3OHe6q8VjAhAZbrs2iZcg05daMB9T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\360_F_535107114_TmT3OHe6q8VjAhAZbrs2iZcg05daMB9T.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IT (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IT (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="client" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\client.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="godzilla-theme-oe7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\godzilla-theme-oe7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

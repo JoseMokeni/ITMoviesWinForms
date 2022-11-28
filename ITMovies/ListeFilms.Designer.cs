@@ -29,73 +29,107 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.acheterBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.idField = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonShadow;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(40, 346);
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.dataGridView1.Location = new System.Drawing.Point(30, 240);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1118, 321);
+            this.dataGridView1.Size = new System.Drawing.Size(363, 302);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.acheterBtn);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.idField);
-            this.panel1.Location = new System.Drawing.Point(798, 249);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(359, 73);
-            this.panel1.TabIndex = 1;
             // 
             // acheterBtn
             // 
-            this.acheterBtn.Location = new System.Drawing.Point(208, 26);
+            this.acheterBtn.Location = new System.Drawing.Point(274, 206);
+            this.acheterBtn.Margin = new System.Windows.Forms.Padding(2);
             this.acheterBtn.Name = "acheterBtn";
-            this.acheterBtn.Size = new System.Drawing.Size(75, 23);
+            this.acheterBtn.Size = new System.Drawing.Size(56, 23);
             this.acheterBtn.TabIndex = 2;
-            this.acheterBtn.Text = "Acheter";
+            this.acheterBtn.Text = "BUY";
             this.acheterBtn.UseVisualStyleBackColor = true;
             this.acheterBtn.Click += new System.EventHandler(this.acheterBtn_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 29);
+            this.label1.Location = new System.Drawing.Point(49, 211);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(18, 16);
+            this.label1.Size = new System.Drawing.Size(18, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "id";
+            this.label1.Text = "ID";
             // 
             // idField
             // 
-            this.idField.Location = new System.Drawing.Point(73, 24);
+            this.idField.Location = new System.Drawing.Point(88, 207);
+            this.idField.Margin = new System.Windows.Forms.Padding(2);
             this.idField.Name = "idField";
-            this.idField.Size = new System.Drawing.Size(100, 22);
+            this.idField.Size = new System.Drawing.Size(163, 20);
             this.idField.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.BackgroundImage = global::ITMovies.Properties.Resources.godzilla_theme_oe7;
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.acheterBtn);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.dataGridView1);
+            this.panel2.Controls.Add(this.idField);
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(901, 562);
+            this.panel2.TabIndex = 2;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label3.Location = new System.Drawing.Point(35, 48);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(32, 25);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "IT";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(73, 48);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(99, 25);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "MOVIES";
             // 
             // ListeFilms
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1206, 692);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(904, 562);
+            this.Controls.Add(this.panel2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ListeFilms";
             this.Text = "ListeFilms";
             this.Load += new System.EventHandler(this.ListeFilms_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -103,9 +137,11 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button acheterBtn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox idField;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
     }
 }
