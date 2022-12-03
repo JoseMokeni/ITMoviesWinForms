@@ -22,7 +22,10 @@ namespace ITMovies
         private void button1_Click(object sender, EventArgs e)
         {
             string id;
-            Database.connection.Open();
+            if (Database.connection.State == ConnectionState.Closed)
+            {
+                Database.connection.Open();
+            }
             SqlCommand command;
             SqlDataReader reader;
             string pwd = Utilities.hashPwd(passwordField.Text);

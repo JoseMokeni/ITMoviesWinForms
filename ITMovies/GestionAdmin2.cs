@@ -52,9 +52,10 @@ namespace ITMovies
             dataGridView1.DataSource = ds.Tables["Admins"];
             // set the nom column fill
             dataGridView1.Columns["nom"].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            
-            
-            
+            // allow just one row to be selected
+            dataGridView1.MultiSelect = false;
+
+
 
 
         }
@@ -111,6 +112,45 @@ namespace ITMovies
             Admin admin = new Admin(idField.Text);
             // show the reset password form
             new ReinitialisationMdp(admin).Show();
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void resetBtn_Click(object sender, EventArgs e)
+        {
+            // reset the error text
+            foreach (DataGridViewRow row in dataGridView1.Rows)
+            {
+                foreach (DataGridViewCell cell in row.Cells)
+                {
+                    cell.ErrorText = "";
+                }
+            }
+        }
+
+        private void dataGridView1_SelectionChanged(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                // get the id of the selected row
+                idField.Text = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
+            }
+            
+
+
+
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // get the row of the selected cell
+            DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
+            // get the id of the selected row
+            idField.Text = row.Cells[0].Value.ToString();
+            
         }
     }
 }
