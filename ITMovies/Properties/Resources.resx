@@ -142,6 +142,9 @@
   <data name="preview_the-5th-wave-film-2016" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\preview_the-5th-wave-film-2016.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="godzilla-theme-oe7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\godzilla-theme-oe7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -202,7 +205,7 @@
   <data name="client" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\client.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="godzilla-theme-oe7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\godzilla-theme-oe7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="it movies (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\it movies (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

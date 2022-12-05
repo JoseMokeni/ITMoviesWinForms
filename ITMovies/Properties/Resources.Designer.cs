@@ -243,6 +243,16 @@ namespace ITMovies.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap it_movies__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("it movies (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MOVIES {
             get {
                 object obj = ResourceManager.GetObject("MOVIES", resourceCulture);

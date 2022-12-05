@@ -292,5 +292,8 @@
   <ItemGroup>
     <None Include="Resources\godzilla-theme-oe7.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\it movies %281%291.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
