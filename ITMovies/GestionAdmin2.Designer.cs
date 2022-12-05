@@ -39,27 +39,26 @@
             this.idField = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.resetBtn = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(392, 217);
+            this.dataGridView1.Location = new System.Drawing.Point(24, 253);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(795, 377);
+            this.dataGridView1.Size = new System.Drawing.Size(1163, 366);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
@@ -71,7 +70,7 @@
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
             this.panel1.Controls.Add(this.searchField);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(17, 246);
+            this.panel1.Location = new System.Drawing.Point(674, 126);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(323, 100);
@@ -100,10 +99,10 @@
             // validerBtn
             // 
             this.validerBtn.ForeColor = System.Drawing.Color.IndianRed;
-            this.validerBtn.Location = new System.Drawing.Point(17, 516);
+            this.validerBtn.Location = new System.Drawing.Point(1003, 126);
             this.validerBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.validerBtn.Name = "validerBtn";
-            this.validerBtn.Size = new System.Drawing.Size(323, 41);
+            this.validerBtn.Size = new System.Drawing.Size(184, 41);
             this.validerBtn.TabIndex = 2;
             this.validerBtn.Text = "DONE";
             this.validerBtn.UseVisualStyleBackColor = true;
@@ -115,16 +114,16 @@
             this.panel2.Controls.Add(this.resetPwdBtn);
             this.panel2.Controls.Add(this.idField);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(17, 380);
+            this.panel2.Location = new System.Drawing.Point(400, 126);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(323, 100);
+            this.panel2.Size = new System.Drawing.Size(268, 100);
             this.panel2.TabIndex = 3;
             // 
             // resetPwdBtn
             // 
             this.resetPwdBtn.ForeColor = System.Drawing.Color.IndianRed;
-            this.resetPwdBtn.Location = new System.Drawing.Point(157, 30);
+            this.resetPwdBtn.Location = new System.Drawing.Point(155, 31);
             this.resetPwdBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.resetPwdBtn.Name = "resetPwdBtn";
             this.resetPwdBtn.Size = new System.Drawing.Size(91, 43);
@@ -135,7 +134,7 @@
             // 
             // idField
             // 
-            this.idField.Location = new System.Drawing.Point(29, 39);
+            this.idField.Location = new System.Drawing.Point(49, 39);
             this.idField.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.idField.Name = "idField";
             this.idField.Size = new System.Drawing.Size(100, 22);
@@ -146,7 +145,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.IndianRed;
-            this.label2.Location = new System.Drawing.Point(3, 41);
+            this.label2.Location = new System.Drawing.Point(15, 39);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(28, 20);
             this.label2.TabIndex = 0;
@@ -155,42 +154,57 @@
             // panel3
             // 
             this.panel3.BackgroundImage = global::ITMovies.Properties.Resources._113108667_pariscinema_getty976;
-            this.panel3.Controls.Add(this.panel4);
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Controls.Add(this.label3);
+            this.panel3.Controls.Add(this.resetBtn);
+            this.panel3.Controls.Add(this.panel5);
             this.panel3.Controls.Add(this.dataGridView1);
+            this.panel3.Controls.Add(this.validerBtn);
+            this.panel3.Controls.Add(this.panel2);
+            this.panel3.Controls.Add(this.panel1);
             this.panel3.Location = new System.Drawing.Point(-3, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1205, 639);
             this.panel3.TabIndex = 4;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
-            // panel4
+            // label4
             // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel4.Controls.Add(this.resetBtn);
-            this.panel4.Controls.Add(this.label3);
-            this.panel4.Controls.Add(this.panel1);
-            this.panel4.Controls.Add(this.panel2);
-            this.panel4.Controls.Add(this.validerBtn);
-            this.panel4.Controls.Add(this.panel5);
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(356, 639);
-            this.panel4.TabIndex = 4;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(305, 13);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(565, 57);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "GESTION DES ADMINS";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Tempus Sans ITC", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label3.Location = new System.Drawing.Point(56, 145);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(16, 109);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(216, 45);
             this.label3.TabIndex = 4;
             this.label3.Text = "IT MOVIES...";
+            // 
+            // resetBtn
+            // 
+            this.resetBtn.BackColor = System.Drawing.SystemColors.Control;
+            this.resetBtn.ForeColor = System.Drawing.Color.Maroon;
+            this.resetBtn.Location = new System.Drawing.Point(1003, 183);
+            this.resetBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.resetBtn.Name = "resetBtn";
+            this.resetBtn.Size = new System.Drawing.Size(184, 41);
+            this.resetBtn.TabIndex = 5;
+            this.resetBtn.Text = "RESET ERRORS";
+            this.resetBtn.UseVisualStyleBackColor = false;
+            this.resetBtn.Click += new System.EventHandler(this.resetBtn_Click);
             // 
             // panel5
             // 
@@ -198,24 +212,11 @@
             this.panel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel5.BackgroundImage")));
             this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel5.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.panel5.Location = new System.Drawing.Point(64, 59);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Location = new System.Drawing.Point(16, 13);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(212, 82);
             this.panel5.TabIndex = 4;
-            // 
-            // resetBtn
-            // 
-            this.resetBtn.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.resetBtn.ForeColor = System.Drawing.Color.Maroon;
-            this.resetBtn.Location = new System.Drawing.Point(17, 569);
-            this.resetBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.resetBtn.Name = "resetBtn";
-            this.resetBtn.Size = new System.Drawing.Size(323, 41);
-            this.resetBtn.TabIndex = 5;
-            this.resetBtn.Text = "RESET ERRORS";
-            this.resetBtn.UseVisualStyleBackColor = false;
-            this.resetBtn.Click += new System.EventHandler(this.resetBtn_Click);
             // 
             // GestionAdmin2
             // 
@@ -223,8 +224,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1199, 640);
             this.Controls.Add(this.panel3);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
             this.Name = "GestionAdmin2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GestionAdmin2";
             this.Load += new System.EventHandler(this.GestionAdmin2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -233,8 +237,7 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -251,9 +254,9 @@
         private System.Windows.Forms.TextBox idField;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button resetBtn;
+        private System.Windows.Forms.Label label4;
     }
 }

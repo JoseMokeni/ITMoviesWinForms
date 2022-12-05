@@ -141,7 +141,9 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
             this.Name = "AccueilAdmin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AccueilAdmin";
             this.Load += new System.EventHandler(this.AccueilAdmin_Load);
             this.panel1.ResumeLayout(false);

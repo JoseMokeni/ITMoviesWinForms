@@ -54,6 +54,7 @@ namespace ITMovies
             dataGridView1.Columns["nom"].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             // allow just one row to be selected
             dataGridView1.MultiSelect = false;
+            idField.Enabled = false;
 
 
 
@@ -151,6 +152,11 @@ namespace ITMovies
             // get the id of the selected row
             idField.Text = row.Cells[0].Value.ToString();
             
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

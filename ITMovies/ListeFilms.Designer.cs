@@ -44,20 +44,22 @@
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonShadow;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.GridColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.dataGridView1.Location = new System.Drawing.Point(30, 240);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridView1.Location = new System.Drawing.Point(40, 193);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(363, 302);
+            this.dataGridView1.Size = new System.Drawing.Size(1128, 474);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
             // acheterBtn
             // 
-            this.acheterBtn.Location = new System.Drawing.Point(274, 206);
-            this.acheterBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.acheterBtn.Location = new System.Drawing.Point(1093, 130);
+            this.acheterBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.acheterBtn.Name = "acheterBtn";
-            this.acheterBtn.Size = new System.Drawing.Size(56, 23);
+            this.acheterBtn.Size = new System.Drawing.Size(75, 45);
             this.acheterBtn.TabIndex = 2;
             this.acheterBtn.Text = "BUY";
             this.acheterBtn.UseVisualStyleBackColor = true;
@@ -66,19 +68,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(49, 211);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(924, 144);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(18, 13);
+            this.label1.Size = new System.Drawing.Size(20, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "ID";
             // 
             // idField
             // 
-            this.idField.Location = new System.Drawing.Point(88, 207);
-            this.idField.Margin = new System.Windows.Forms.Padding(2);
+            this.idField.Location = new System.Drawing.Point(960, 141);
+            this.idField.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.idField.Name = "idField";
-            this.idField.Size = new System.Drawing.Size(163, 20);
+            this.idField.Size = new System.Drawing.Size(127, 22);
             this.idField.TabIndex = 0;
             // 
             // panel2
@@ -92,8 +93,9 @@
             this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Controls.Add(this.idField);
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(901, 562);
+            this.panel2.Size = new System.Drawing.Size(1201, 692);
             this.panel2.TabIndex = 2;
             // 
             // label3
@@ -101,9 +103,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(35, 48);
+            this.label3.Location = new System.Drawing.Point(47, 59);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 25);
+            this.label3.Size = new System.Drawing.Size(41, 31);
             this.label3.TabIndex = 5;
             this.label3.Text = "IT";
             // 
@@ -111,20 +114,24 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(73, 48);
+            this.label2.Location = new System.Drawing.Point(97, 59);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 25);
+            this.label2.Size = new System.Drawing.Size(125, 31);
             this.label2.TabIndex = 4;
             this.label2.Text = "MOVIES";
             // 
             // ListeFilms
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(904, 562);
+            this.ClientSize = new System.Drawing.Size(1205, 692);
             this.Controls.Add(this.panel2);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
             this.Name = "ListeFilms";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ListeFilms";
             this.Load += new System.EventHandler(this.ListeFilms_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

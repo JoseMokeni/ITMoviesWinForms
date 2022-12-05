@@ -60,6 +60,21 @@ namespace ITMovies
         private void ListeFilms_Load(object sender, EventArgs e)
         {
             fillData();
+            idField.Enabled = false;
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int index = e.RowIndex;
+            DataGridViewRow selectedRow = dataGridView1.Rows[index];
+            idField.Text = selectedRow.Cells[0].Value.ToString();
+        }
+
+        private void dataGridView1_SelectionChanged(object sender, EventArgs e)
+        {
+            int index = dataGridView1.CurrentCell.RowIndex;
+            DataGridViewRow selectedRow = dataGridView1.Rows[index];
+            idField.Text = selectedRow.Cells[0].Value.ToString();
         }
     }
 }

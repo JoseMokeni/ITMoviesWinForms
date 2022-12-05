@@ -34,6 +34,7 @@ namespace ITMovies
 
         private void gererLesFilms_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("The price is an INT, not a DECIMAL OR DOUBLE!!!!!!!!!!");
             new GestionFilms2().Show();
         }
 

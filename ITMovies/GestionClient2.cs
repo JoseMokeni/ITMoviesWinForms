@@ -37,6 +37,9 @@ namespace ITMovies
             dataGridView1.DataSource = ds.Tables["Clients"];
             // set the nom column fill
             dataGridView1.Columns["nom"].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            dataGridView1.MultiSelect = false;
+            idField.Enabled = false;
+
         }
 
         private void searchField_TextChanged(object sender, EventArgs e)
@@ -99,6 +102,35 @@ namespace ITMovies
             Client client = new Client(idField.Text);
             // show the reset password form
             new ReinitialisationMdp(client).Show();
+        }
+
+        private void resetBtn_Click(object sender, EventArgs e)
+        {
+            // reset error text
+            foreach (DataGridViewRow row in dataGridView1.Rows)
+            {
+                foreach (DataGridViewCell cell in row.Cells)
+                {
+                    cell.ErrorText = "";
+                }
+            }
+        }
+
+        private void dataGridView1_SelectionChanged(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                // get the id of the selected row
+                idField.Text = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
+            }
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // get the row of the selected cell
+            DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
+            // get the id of the selected row
+            idField.Text = row.Cells[0].Value.ToString();
         }
     }
 }

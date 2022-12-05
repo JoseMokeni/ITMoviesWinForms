@@ -119,10 +119,12 @@ namespace ITMovies
             // check if the prix is a number with the format 0,0+ or 0+ or 0,0+
             if (headerText.Equals("prix"))
             {
-                string regex = @"^[0-9]+(\.[0-9]{1,2})?$";
+                string regex = @"^[0-9]+(\,[0-9]{1,2})?$";
+                regex = @"^[0-9]+$";
                 if (!Regex.IsMatch(val, regex))
                 {
-                    cell.ErrorText = "prix should be a number with the format 0+,0+ or 0+";
+                    //cell.ErrorText = "prix should be a number with the format 0+,0+ or 0+";
+                    cell.ErrorText = "prix should be a number";
                 }
                 else
                 {
@@ -146,16 +148,6 @@ namespace ITMovies
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            // search in all the columns
-            string search = textBox1.Text;
-            string query = "SELECT id, titre, realisateur, langue, duree, prix FROM films WHERE titre LIKE '%" + search + "%' OR realisateur LIKE '%" + search + "%' OR langue LIKE '%" + search + "%' OR duree LIKE '%" + search + "%' OR prix LIKE '%" + search + "%'";
-            adap = new SqlDataAdapter(query, Database.connection);
-            ds = new DataSet();
-            adap.Fill(ds, "films");
-            dataGridView1.DataSource = ds.Tables["films"];
-            dataGridView1.Columns["id"].Visible = false;
-            // set the titre column fill
-            dataGridView1.Columns["titre"].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             
 
         }
@@ -173,6 +165,36 @@ namespace ITMovies
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            // search by all the columns
+            string search = textBox1.Text;
+            string query = "SELECT id, titre, realisateur, langue, duree, prix FROM films WHERE titre LIKE '%" + search + "%' OR realisateur LIKE '%" + search + "%' OR langue LIKE '%" + search + "%' OR duree LIKE '%" + search + "%' OR prix LIKE '%" + search + "%'";
+            adap = new SqlDataAdapter(query, Database.connection);
+            ds = new DataSet();
+            adap.Fill(ds, "films");
+            dataGridView1.DataSource = ds.Tables["films"];
+            dataGridView1.Columns["id"].Visible = false;
+            // set the titre column fill
+            dataGridView1.Columns["titre"].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+
+        }
+
+        private void dataGridView1_CellValidating(object sender, DataGridViewCellValidatingEventArgs e)
+        {
+            
+        }
+
+        private void dataGridView1_DataError(object sender, DataGridViewDataErrorEventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

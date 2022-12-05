@@ -29,6 +29,7 @@ namespace ITMovies
 
         private void HistoriqueClient_Load(object sender, EventArgs e)
         {
+            
             if (Database.connection.State == ConnectionState.Closed)
             {
                 Database.connection.Open();
